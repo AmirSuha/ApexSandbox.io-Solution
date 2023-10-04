@@ -1,12 +1,13 @@
 public Boolean sumEquals(Integer a, Integer b, Integer c) {
     //code here
     
-    Integer result = a+b;
-    Integer c;
-    if(result == c){
+    Integer a = 10;
+    Integer b = 10;
+    Integer c = 20;
+    if(a+b == c){
         return true;
     }
-    if else(result != c){
+    if else(a+b != c){
         return false;
     }
     
