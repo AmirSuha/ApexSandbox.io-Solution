@@ -7,6 +7,6 @@ public List<String> getNamesInAscOrder(List<String> accountNames)
     if(result[0] == 'Adrienne Copeland' && result[1] == 'Blake Howard' && result.size()==2){
         return true;
         result.sort();
-        System.assertEquals(expected, result, 'Returned list should match the list of full names in ascending order');
+        System.assertEquals(fullNames, result, 'Returned list should match the list of full names in ascending order');
     }
 }
